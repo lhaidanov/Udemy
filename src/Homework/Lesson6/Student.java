@@ -57,10 +57,6 @@ class StudentTest {
         ag.AverageGradeOfStudent(st2);
         ag.AverageGradeOfStudent(st3);
 
-//        st1.AverageGrade(st1.mathAverageGrade, st1.economicsAverageGrade, st1.foreignLanguageAverageGrade);
-//        st2.AverageGrade(st2.mathAverageGrade, st2.economicsAverageGrade, st2.foreignLanguageAverageGrade);
-//        st3.AverageGrade(st3.mathAverageGrade, st3.economicsAverageGrade, st3.foreignLanguageAverageGrade);
-
     }
 
 
