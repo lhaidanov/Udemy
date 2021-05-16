@@ -1,6 +1,7 @@
 /**
  * Created by Leonid Haidanov on 5/15/2021
  */
+//Lessen 8 >>  modifiers final and static.
 
 package Homework.Lesson8;
 

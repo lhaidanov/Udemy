@@ -1,6 +1,7 @@
 /**
  * Created by Leonid Haidanov on 5/16/2021
  */
+//Lessen 12 >>  "if" and "if else"
 
 package Homework.Lesson12;
 

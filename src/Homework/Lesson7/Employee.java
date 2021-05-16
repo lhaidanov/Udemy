@@ -2,6 +2,8 @@
  * Created by Leonid Haidanov on 5/10/2021
  */
 
+//Lessen 7 >>  Packages and access modifiers
+
 package Homework.Lesson7;
 
 public class Employee {

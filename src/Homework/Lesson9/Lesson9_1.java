@@ -2,6 +2,8 @@
  * Created by Leonid Haidanov on 5/15/2021
  */
 
+
+//Lessen 9 >>  Static variables and variables visibility.
 package Homework.Lesson9;
 
 class Lesson9_1 {
