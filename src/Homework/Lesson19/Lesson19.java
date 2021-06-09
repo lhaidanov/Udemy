@@ -1,4 +1,9 @@
-package Homework.Lesson19;
+// Lesson19 >>
+// * varargs
+// * arguments with type command line
+// * foreach
+
+//NOTE!!! this file needs to be run from internal terminal not from IDEA
 
 public class Lesson19 {
     public static String[] abc(String[]... array1) {
