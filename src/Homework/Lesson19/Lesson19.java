@@ -7,13 +7,13 @@
 
 public class Lesson19 {
     public static String[] abc(String[]... array1) {
-        int lenght = 0;
+        int length = 0;
 
         for (String[] array2 : array1) {
-            lenght += array2.length;
+            length += array2.length;
         }
 
-        String[] target = new String[lenght];
+        String[] target = new String[length];
         int count = 0;
         for (String[] array2 : array1) {
             for (String element : array2) {
