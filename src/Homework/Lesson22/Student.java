@@ -45,5 +45,15 @@ public class Student {
 }
 
 class TestStudent {
+    public static void main(String[] args) {
+        Student st1 = new Student();
+        StringBuilder sb = new StringBuilder("Ivan");
+        st1.setName(sb);
+        st1.setCourse(2);
+        st1.setGrade(9);
+        st1.showInfo();
+    }
+
+
 
 }
