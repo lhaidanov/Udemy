@@ -5,21 +5,12 @@
 package Homework.Lesson22;
 
 public class Animal {
-    private int eyes;
+    int eyes;
 
-    Animal() {
+    public Animal() {
         System.out.println("I am Animal");
     }
 
-    public int getEyes() {
-        return eyes;
-    }
-
-    public void setEyes(int eyes) {
-        if (eyes > 0) {
-            this.eyes = eyes;
-        }
-    }
 
     public void eat() {
         System.out.println("Animal eats");
@@ -31,40 +22,16 @@ public class Animal {
 }
 
 class Pet extends Animal {
-    private String name;
-    private int tale = 1;
-    private int paw = 4;
-
 
     Pet() {
         System.out.println("I am Pet");
-        setEyes(2);
+        eyes = 2;
     }
 
+    String name;
+    int tale = 1;
+    int paw = 4;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getTale() {
-        return tale;
-    }
-
-    public void setTale(int tale) {
-        this.tale = tale;
-    }
-
-    public int getPaw() {
-        return paw;
-    }
-
-    public void setPaw(int paw) {
-        this.paw = paw;
-    }
 
     public void run() {
         System.out.println("Pet runs");
@@ -75,12 +42,39 @@ class Pet extends Animal {
     }
 }
 
-class Dog extends Pet{
+class Dog extends Pet {
 
     String a;
 
-    Dog(){
-        System.out.println("I am dog and my name is " + setName());
+    Dog(String name) {
+        this.name = name;
+        System.out.println("I am dog and my name is " + name);
     }
 
+    public void play() {
+        System.out.println("Dog plays");
+    }
+}
+
+class Cat extends Pet {
+
+    String a;
+
+    Cat(String name) {
+        this.name = name;
+        System.out.println("I am cat and my name is " + name);
+    }
+
+    public void sleep() {
+        System.out.println("Cat sleeps");
+    }
+}
+
+class Test {
+    public static void main(String[] args) {
+        Dog d1 = new Dog("Sunny");
+        System.out.println("dog has " + d1.paw + " paw");
+        Cat c1 = new Cat("Nora");
+        c1.sleep();
+    }
 }
