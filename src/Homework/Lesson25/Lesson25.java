@@ -60,28 +60,6 @@ public class Lesson25 {
             }
             System.out.println("------------------------------------");
         }
-
-
-//        Mechenosec mch = new Mechenosec("Karl");
-//        System.out.println(mch.name);
-//        mch.eat();
-//        mch.sleep();
-//        mch.swim();
-//        System.out.println();
-//        Speakable s = new Pingvin("kovalsky");
-//        s.speak();
-//        Animal a = new Lev("simba");
-//        System.out.println();
-//        System.out.println(a.name);
-//        a.eat();
-//        a.sleep();
-//        Mammal mam = new Lev("simba2");
-//        System.out.println();
-//        System.out.println(mam.name);
-//        mam.run();
-//        mam.eat();
-//        mam.sleep();
-//        mam.speak();
     }
 }
 
